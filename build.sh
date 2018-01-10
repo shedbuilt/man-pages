@@ -1,2 +1,2 @@
 #!/bin/bash
-make DESTDIR=${SHED_FAKEROOT} install
+make DESTDIR="$SHED_FAKEROOT" install
