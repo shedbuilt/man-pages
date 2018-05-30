@@ -1,6 +1,8 @@
 NAME=man-pages
-VERSION=4.15
+VERSION=4.16
 REVISION=1
-SRC=https://www.kernel.org/pub/linux/docs/man-pages/man-pages-4.15.tar.xz
-SRCMD5=4298feb3d5feffad8ff46bb87b061a07
+SRC=https://www.kernel.org/pub/linux/docs/man-pages/man-pages-4.16.tar.xz
+SRCMD5=ad9f1ff81276fe8d90d077484d6d4b5e
 STRIP=no
+OPTIONS=bootstrap|release
+DEFAULTS=release
